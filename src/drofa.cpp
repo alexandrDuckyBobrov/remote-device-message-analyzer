@@ -2,7 +2,7 @@
 #include <QDebug>
 
 
-Drofa::Drofa() : Device("Дрофа (ПРД") {}
+Drofa::Drofa() : Device("Дрофа (ПРД)") {}
 
 bool Drofa::parse(const QByteArray& data)
 {

@@ -1,0 +1,9 @@
+-rootPath
+/home/ducky/remote-device-message-analyzer
+-cmake-output
+-output-file
+/home/ducky/remote-device-message-analyzer/build/Desktop-Debug/.qt/qml_imports/RemoteAnalyzer_conf.cmake
+-importPath
+/home/ducky/remote-device-message-analyzer/build/Desktop-Debug
+-importPath
+/usr/lib/qt6/qml
