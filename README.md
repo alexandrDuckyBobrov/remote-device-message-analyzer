@@ -19,6 +19,7 @@
 - Подробное логирование ошибок и результатов анализа
 
 ### Архитектура
+
 ```
 remote-device-message-analyzer/
 ├── src/
@@ -34,20 +35,33 @@ remote-device-message-analyzer/
 
 #### Зависимости
 
-- cmake
-- qt5
+```bash
+# Ubuntu/Debian
+sudo apt install build-essential cmake qt5-qmake qtbase5-dev qtbase5-dev-tools
+```
+
+```bash
+# Fedora/RHEL
+sudo dnf groupinstall "Development Tools"
+suddo dnf install cmake qt5-qtbase-devel
+```
+
+```bash
+# Arch Linux
+sudo pacman -S base-devel cmake qt5-base
+```
 
 #### Сборка
+
 ```bash
 
 git clone https://github.com/alexandrDuckyBobrov/remote-device-message-analyzer.git
+
 cd remote-device-message-analyzer
 
-cd build
+mkdir build && cd build
 
 cmake .. -DCMAKE_BUILD_TYPE=Release
-
-make clean
 
 make -j$(nproc)
 
@@ -58,7 +72,7 @@ make -j$(nproc)
 Из папки /build
 
 ```bash
-./untitled
+./RemoteAnalyzer
 ```
 
 ### Формат ввода данных
