@@ -18,6 +18,18 @@
 - Интуитивно понятный графический интерфейс
 - Подробное логирование ошибок и результатов анализа
 
+### Архитектура
+```
+remote-device-message-analyzer/
+├── src/
+│   ├── main.cpp
+│   ├── mainwindow.h/cpp
+│   ├── device.h/cpp
+│   ├── korshun.h/cpp
+│   ├── drofa.h/cpp
+└── CMakeLists.txt
+```
+
 ### Сборка из исходников
 
 #### Зависимости
