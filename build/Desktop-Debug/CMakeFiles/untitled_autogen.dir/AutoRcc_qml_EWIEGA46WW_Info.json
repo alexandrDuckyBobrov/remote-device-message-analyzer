@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "/home/ducky/untitled/build/Desktop-Debug/untitled_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ducky/untitled/build/Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ducky/untitled/build/Desktop-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ducky/untitled",
+	"CMAKE_SOURCE_DIR" : "/home/ducky/untitled",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/ducky/untitled/build/Desktop-Debug/untitled_autogen/include",
+	"INPUTS" : [ "/home/ducky/untitled/main.qml" ],
+	"LOCK_FILE" : "/home/ducky/untitled/build/Desktop-Debug/CMakeFiles/untitled_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/ducky/untitled/build/Desktop-Debug/CMakeFiles/untitled_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/ducky/untitled/qml.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}
