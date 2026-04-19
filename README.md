@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/C++-17-blue.svg" height="20">
   <img src="https://img.shields.io/badge/Qt-5.15.18-green.svg" height="20">
 </p>
-# Remote device message analyzer
+## Remote device message analyzer
 
 ### О проекте
 
