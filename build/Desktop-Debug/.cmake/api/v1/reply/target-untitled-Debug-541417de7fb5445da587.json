@@ -19,11 +19,11 @@
 			"set_target_properties",
 			"include",
 			"find_package",
-			"set_property",
 			"__find_dependency_common",
 			"find_dependency",
-			"_qt_internal_find_third_party_dependencies",
 			"_qt_internal_find_qt_dependencies",
+			"set_property",
+			"_qt_internal_find_third_party_dependencies",
 			"add_dependencies",
 			"_qt_internal_scan_qml_imports",
 			"_qt_internal_generate_deploy_qml_imports_script",
@@ -41,15 +41,15 @@
 			"/usr/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake",
 			"/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake",
 			"build/Desktop-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake",
-			"/usr/share/cmake/Modules/FindOpenGL.cmake",
-			"/usr/lib/cmake/Qt6/FindWrapOpenGL.cmake",
-			"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
-			"/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
-			"/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
-			"/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
-			"/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake",
 			"/usr/lib/cmake/Qt6Qml/Qt6QmlTargets.cmake",
 			"/usr/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake",
+			"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+			"/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake",
+			"/usr/share/cmake/Modules/FindOpenGL.cmake",
+			"/usr/lib/cmake/Qt6/FindWrapOpenGL.cmake",
+			"/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
+			"/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
 			"/usr/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
 			"build/Desktop-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake"
 		],
@@ -61,7 +61,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 21,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
@@ -85,13 +85,19 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 65,
+				"line" : 68,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 47,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 51,
 				"parent" : 0
 			},
 			{
@@ -104,186 +110,186 @@
 				"command" : 8,
 				"file" : 4,
 				"line" : 234,
-				"parent" : 7
+				"parent" : 8
 			},
 			{
 				"file" : 3,
-				"parent" : 8
+				"parent" : 9
 			},
 			{
 				"command" : 7,
 				"file" : 3,
 				"line" : 65,
-				"parent" : 9
+				"parent" : 10
 			},
 			{
 				"file" : 2,
-				"parent" : 10
+				"parent" : 11
 			},
 			{
 				"command" : 6,
 				"file" : 2,
 				"line" : 70,
-				"parent" : 11
+				"parent" : 12
 			},
 			{
 				"command" : 7,
 				"file" : 3,
 				"line" : 50,
-				"parent" : 9
+				"parent" : 10
 			},
 			{
-				"file" : 11,
-				"parent" : 13
-			},
-			{
-				"command" : 13,
-				"file" : 11,
-				"line" : 50,
+				"file" : 9,
 				"parent" : 14
 			},
 			{
 				"command" : 11,
-				"file" : 8,
-				"line" : 142,
+				"file" : 9,
+				"line" : 50,
 				"parent" : 15
 			},
 			{
 				"command" : 10,
-				"file" : 7,
-				"line" : 125,
+				"file" : 8,
+				"line" : 142,
 				"parent" : 16
 			},
 			{
-				"command" : 8,
+				"command" : 9,
 				"file" : 7,
-				"line" : 93,
+				"line" : 125,
 				"parent" : 17
 			},
 			{
 				"command" : 8,
-				"file" : 4,
-				"line" : 252,
+				"file" : 7,
+				"line" : 93,
 				"parent" : 18
 			},
 			{
-				"file" : 10,
+				"command" : 8,
+				"file" : 4,
+				"line" : 252,
 				"parent" : 19
 			},
 			{
-				"command" : 7,
-				"file" : 10,
-				"line" : 50,
+				"file" : 6,
 				"parent" : 20
 			},
 			{
-				"file" : 9,
+				"command" : 7,
+				"file" : 6,
+				"line" : 68,
 				"parent" : 21
 			},
 			{
-				"command" : 12,
-				"file" : 9,
-				"line" : 37,
+				"file" : 5,
 				"parent" : 22
 			},
 			{
-				"command" : 11,
-				"file" : 8,
-				"line" : 36,
+				"command" : 6,
+				"file" : 5,
+				"line" : 70,
 				"parent" : 23
 			},
 			{
 				"command" : 10,
-				"file" : 7,
-				"line" : 125,
-				"parent" : 24
+				"file" : 8,
+				"line" : 142,
+				"parent" : 16
 			},
 			{
-				"command" : 8,
+				"command" : 9,
 				"file" : 7,
-				"line" : 93,
+				"line" : 125,
 				"parent" : 25
 			},
 			{
 				"command" : 8,
-				"file" : 4,
-				"line" : 259,
-				"parent" : 26
-			},
-			{
-				"file" : 6,
-				"parent" : 27
-			},
-			{
-				"command" : 8,
-				"file" : 6,
-				"line" : 13,
-				"parent" : 28
-			},
-			{
-				"command" : 8,
-				"file" : 4,
-				"line" : 259,
-				"parent" : 29
-			},
-			{
-				"file" : 5,
-				"parent" : 30
-			},
-			{
-				"command" : 9,
-				"file" : 5,
-				"line" : 837,
-				"parent" : 31
-			},
-			{
-				"command" : 6,
-				"file" : 5,
-				"line" : 835,
-				"parent" : 31
-			},
-			{
-				"command" : 11,
-				"file" : 8,
-				"line" : 142,
-				"parent" : 15
-			},
-			{
-				"command" : 10,
-				"file" : 7,
-				"line" : 125,
-				"parent" : 34
-			},
-			{
-				"command" : 8,
 				"file" : 7,
 				"line" : 93,
-				"parent" : 35
+				"parent" : 26
 			},
 			{
 				"command" : 8,
 				"file" : 4,
 				"line" : 252,
-				"parent" : 36
+				"parent" : 27
 			},
 			{
 				"file" : 13,
-				"parent" : 37
+				"parent" : 28
 			},
 			{
 				"command" : 7,
 				"file" : 13,
-				"line" : 68,
+				"line" : 50,
+				"parent" : 29
+			},
+			{
+				"file" : 12,
+				"parent" : 30
+			},
+			{
+				"command" : 13,
+				"file" : 12,
+				"line" : 37,
+				"parent" : 31
+			},
+			{
+				"command" : 10,
+				"file" : 8,
+				"line" : 36,
+				"parent" : 32
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 125,
+				"parent" : 33
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 93,
+				"parent" : 34
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 259,
+				"parent" : 35
+			},
+			{
+				"file" : 11,
+				"parent" : 36
+			},
+			{
+				"command" : 8,
+				"file" : 11,
+				"line" : 13,
+				"parent" : 37
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 259,
 				"parent" : 38
 			},
 			{
-				"file" : 12,
+				"file" : 10,
 				"parent" : 39
 			},
 			{
+				"command" : 12,
+				"file" : 10,
+				"line" : 837,
+				"parent" : 40
+			},
+			{
 				"command" : 6,
-				"file" : 12,
-				"line" : 70,
+				"file" : 10,
+				"line" : 835,
 				"parent" : 40
 			},
 			{
@@ -295,44 +301,44 @@
 			{
 				"command" : 20,
 				"file" : 1,
-				"line" : 71,
+				"line" : 74,
 				"parent" : 0
 			},
 			{
 				"command" : 19,
 				"file" : 0,
 				"line" : 1039,
-				"parent" : 43
+				"parent" : 44
 			},
 			{
 				"command" : 18,
 				"file" : 0,
 				"line" : 896,
-				"parent" : 44
+				"parent" : 45
 			},
 			{
 				"command" : 17,
 				"file" : 0,
 				"line" : 818,
-				"parent" : 45
+				"parent" : 46
 			},
 			{
 				"command" : 16,
 				"file" : 0,
 				"line" : 818,
-				"parent" : 46
+				"parent" : 47
 			},
 			{
 				"command" : 15,
 				"file" : 14,
 				"line" : 4921,
-				"parent" : 47
+				"parent" : 48
 			},
 			{
 				"command" : 14,
 				"file" : 14,
 				"line" : 4696,
-				"parent" : 48
+				"parent" : 49
 			},
 			{
 				"command" : 22,
@@ -342,13 +348,13 @@
 			},
 			{
 				"file" : 15,
-				"parent" : 50
+				"parent" : 51
 			},
 			{
 				"command" : 21,
 				"file" : 15,
 				"line" : 81,
-				"parent" : 51
+				"parent" : 52
 			}
 		]
 	},
@@ -360,7 +366,7 @@
 	"compileDependencies" : 
 	[
 		{
-			"backtrace" : 42,
+			"backtrace" : 43,
 			"id" : "Qt6::Core::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -370,6 +376,10 @@
 		{
 			"backtrace" : 6,
 			"id" : "Qt6::Quick::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Qt6::Widgets::@6890427a1f51a3e7e1df"
 		}
 	],
 	"compileGroups" : 
@@ -381,14 +391,14 @@
 					"fragment" : "-g -std=gnu++17 -fdiagnostics-color=always"
 				},
 				{
-					"backtrace" : 42,
+					"backtrace" : 43,
 					"fragment" : "-mno-direct-extern-access"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 42,
+					"backtrace" : 43,
 					"define" : "QT_CORE_LIB"
 				},
 				{
@@ -408,7 +418,7 @@
 					"define" : "QT_QMLINTEGRATION_LIB"
 				},
 				{
-					"backtrace" : 52,
+					"backtrace" : 53,
 					"define" : "QT_QML_DEBUG"
 				},
 				{
@@ -418,6 +428,10 @@
 				{
 					"backtrace" : 6,
 					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_WIDGETS_LIB"
 				}
 			],
 			"includes" : 
@@ -427,17 +441,17 @@
 					"path" : "/home/ducky/untitled/build/Desktop-Debug/untitled_autogen/include"
 				},
 				{
-					"backtrace" : 42,
+					"backtrace" : 43,
 					"isSystem" : true,
 					"path" : "/usr/include/qt6/QtCore"
 				},
 				{
-					"backtrace" : 42,
+					"backtrace" : 43,
 					"isSystem" : true,
 					"path" : "/usr/include/qt6"
 				},
 				{
-					"backtrace" : 42,
+					"backtrace" : 43,
 					"isSystem" : true,
 					"path" : "/usr/lib/qt6/mkspecs/linux-g++"
 				},
@@ -470,6 +484,11 @@
 					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/usr/include/qt6/QtOpenGL"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6/QtWidgets"
 				}
 			],
 			"language" : "CXX",
@@ -477,8 +496,8 @@
 			{
 				"backtraces" : 
 				[
-					42,
-					42
+					43,
+					43
 				],
 				"standard" : "17"
 			},
@@ -489,14 +508,15 @@
 				4,
 				6,
 				8,
-				10
+				10,
+				12
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 49,
+			"backtrace" : 50,
 			"id" : "untitled_qmlimportscan::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -536,37 +556,42 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 12,
+				"backtrace" : 7,
+				"fragment" : "/usr/lib/libQt6Widgets.so.6.11.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
 				"fragment" : "/usr/lib/libQt6OpenGL.so.6.11.0",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 12,
-				"fragment" : "/usr/lib/libQt6Gui.so.6.11.0",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 32,
-				"fragment" : "/usr/lib/libGLX.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 33,
-				"fragment" : "/usr/lib/libOpenGL.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 12,
+				"backtrace" : 13,
 				"fragment" : "/usr/lib/libQt6Qml.so.6.11.0",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 41,
+				"backtrace" : 24,
 				"fragment" : "/usr/lib/libQt6Network.so.6.11.0",
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib/libQt6Gui.so.6.11.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 41,
+				"fragment" : "/usr/lib/libGLX.so",
+				"role" : "libraries"
+			},
+			{
 				"backtrace" : 42,
+				"fragment" : "/usr/lib/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 43,
 				"fragment" : "/usr/lib/libQt6Core.so.6.11.0",
 				"role" : "libraries"
 			}
@@ -576,7 +601,7 @@
 	"linkLibraries" : 
 	[
 		{
-			"backtrace" : 42,
+			"backtrace" : 43,
 			"id" : "Qt6::Core::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -586,6 +611,10 @@
 		{
 			"backtrace" : 6,
 			"id" : "Qt6::Quick::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Qt6::Widgets::@6890427a1f51a3e7e1df"
 		}
 	],
 	"name" : "untitled",
@@ -593,13 +622,16 @@
 	"orderDependencies" : 
 	[
 		{
-			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
-		},
-		{
 			"id" : "Qt6::rcc::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 49,
+			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 50,
 			"id" : "untitled_qmlimportscan::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -626,7 +658,8 @@
 				4,
 				6,
 				8,
-				10
+				10,
+				12
 			]
 		},
 		{
@@ -642,22 +675,23 @@
 			[
 				3,
 				5,
-				7
+				7,
+				9
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				9
+				11
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				11,
-				12
+				13,
+				14
 			]
 		}
 	],
@@ -712,6 +746,17 @@
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
 			"path" : "drofa.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "mainwindow.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "mainwindow.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
