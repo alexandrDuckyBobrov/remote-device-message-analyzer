@@ -43,7 +43,7 @@ sudo apt install build-essential cmake qt5-qmake qtbase5-dev qtbase5-dev-tools
 ```bash
 # Fedora/RHEL
 sudo dnf groupinstall "Development Tools"
-suddo dnf install cmake qt5-qtbase-devel
+sudo dnf install cmake qt5-qtbase-devel
 ```
 
 ```bash
